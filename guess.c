@@ -25,5 +25,5 @@ int main(){
  }
  } while(guess!=random);
  printf("\n Thank you for playing \n");
- printf(" \t\tDeveloped by Adesh Gurung.\n Email:adeshawm11@gmail.com");
+ printf(" \t\tDeveloped by Adesh Gurung.\n \t\tEmail:adeshawm11@gmail.com");
 }
