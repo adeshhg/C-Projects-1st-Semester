@@ -5,7 +5,7 @@ int main(){
     int random, guess;
     int no_of_guess=0;
     srand(time(NULL));
-    printf("Welcome to the Guessing Game\n");
+    printf("\t\tWelcome to the Guessing Game\n");
     random = rand() % 100 + 1;
  do{
  printf("Please enter your guess between 1 to 100: ");
@@ -25,5 +25,5 @@ int main(){
  }
  } while(guess!=random);
  printf("\n Thank you for playing \n");
- printf(" Developed by Adesh Gurung.\n Email:adeshawm11@gmail.com");
+ printf(" \t\tDeveloped by Adesh Gurung.\n Email:adeshawm11@gmail.com");
 }
